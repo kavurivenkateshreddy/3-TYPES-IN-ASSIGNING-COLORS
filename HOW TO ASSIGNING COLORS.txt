@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>COLORS</title>
+    <link rel="Stylesheet" href="EXTERNAL.css">
+    <style>
+         h1
+        {
+            background-color:cyan;color:red;text-align:center;
+        }
+
+        h2 
+        {
+            color:blue;
+        }
+        h3
+        {
+            color:darkred;
+        }
+    </style>
+</head>
+<body>
+    <p><h1><u>COLORS</u></h1></p>
+    <P>---> There are six ways to assing the COLORS</P>
+    <p>---> There are : </p>
+    <p>---> Colors are specified using predefined color names, or  HEX, RGB, RGBA, HSL, HSLA values.</p>
+    <p><ol type="1">
+        <li><h2>COLORS NAME</h2></li>
+        <P>---> By directly giving the color name like color="red" </P>
+        <h3>EXAMPLE :</h3>
+        <p>---> &lt p style="background-color:yellow; color:red; text-align:center;" &gt &lt font size="5px" &gt color="orange" &lt font &gt &lt /p &gt </p>
+        <p style="background-color:yellow; color:red; text-align:center;"><font size="5px">color="orange"</font></p>
+        <li><h2>HEXA DECIMAL</h2></li>
+        <p>---> A hexadecimal color is specified with: #RRGGBB, where the RR (red), GG (green) and BB (blue) hexadecimal integers specify the components of the color.</p>
+        <P>---> Where rr (red), gg (green) and bb (blue) are hexadecimal values between 00 and ff (same as decimal 0-255)</P>
+        <h3>EXAMPLE :</h3>
+        <p>---> &lt p style="background-color:#ffff00; color:#ff0000; text-align:center;" &gt &lt font size="5px" &gt color=#ffa500 &lt font &gt &lt /p &gt </p>
+        <p style="background-color:#ffff00; color:#ff0000; text-align:center;"><font size="5px">color=#ffa500</font></p>
+        <li><h2>RGB FUNCTION</h2></li>
+        <p>---> The rgb() function define colors using the Red-green-blue (RGB) model.</p>
+        <p>---> An RGB color value is specified with: rgb(red, green, blue).</p>
+        <p>---> Each parameter defines the intensity of that color and can be an integer between 0 and 255 or a percentage value (from 0% to 100%).</p>
+        <h3>EXAMPLE :</h3>
+        <p>---> &lt p style="background-color:RGB(255,255,0); color:RGB(255, 0, 0); text-align:center;" &gt &lt font size="5px" &gt color= RGB(255, 140, 0) &lt font &gt &lt /p &gt </p>
+        <p style="background-color:RGB(255,255,0); color:RGB(255, 0, 0); text-align:center;"><font size="5px">color=RGB(255, 140, 0)</font></p>
+        <li><h2>RGBA FUNCTION</h2></li>
+        <p>---> The rgba() function define colors using the Red-green-blue-alpha (RGBA) model.</p>
+        <p>---> RGBA color values are an extension of RGB color values with an alpha channel - which specifies the opacity of the color.</p>
+        <h3>EXAMPLE :</h3>
+        <p>---> &lt p style="background-color:rgba(254, 241, 96,1); color:rgba(255,0,0,0.3); text-align:center;" &gt &lt font size="5px" &gt color= RGBArgba(255,0,0,0.3) &lt font &gt &lt /p &gt </p>
+        <p style="background-color:rgba(254, 241, 96,1); color:rgba(255,0,0,0.3); text-align:center;"><font size="5px">color=RGBA(255,0,0,0.3)</font></p>
+        <li><h2>HSL FUNCTION</h2></li>
+        <P>---> HSL stands for hue, saturation, and lightness.</P>
+        <P>---> Hue is a degree on the color wheel from 0 to 360.</P>
+        <P>---> Saturation can be described as the intensity of a color.100% is pure color, no shades of gray 50% is 50% gray, but you can still see the color.
+                0% is completely gray, you can no longer see the color.</P>
+        <P>---> The lightness of a color can be described as how much light you want to give the color, where 0% means no light (black), 50% means 50% light (neither dark nor light) 100% means full lightness (white).</P>
+        <h3>EXAMPLE :</h3>
+        <p>---> &lt p style="background-color:HSL(61, 100%, 60%); color:HSL(354, 100%, 45%); text-align:center;" &gt &lt font size="5px" &gt color= HSL(34, 82%, 49%) &lt font &gt &lt /p &gt </p>
+        <p style="background-color:HSL(61, 100%, 60%); color:HSL(354, 100%, 45%); text-align:center;"><font size="5px">color=HSL(34, 82%, 49%)</font></p>
+        <li><h2>HSLA FUNCTION</h2></li>
+        <P>---> HSLA color values are an extension of HSL color values with an Alpha channel - which specifies the opacity for a color.</P>
+        <p>---> hsla(hue, saturation, lightness, alpha)</p>
+        <p>---> The alpha parameter is a number between 0.0 (fully transparent) and 1.0 (not transparent at all):</p>
+        <h3>EXAMPLE :</h3>
+        <p>---> &lt p style="background-color:HSLA(61, 100%, 60%,0.5); color:HSLA(354, 100%, 45%,1;) text-align:center;" &gt &lt font size="5px" &gt color= HSLA(34, 82%, 49%,0) &lt font &gt &lt /p &gt </p>
+        <p style="background-color:HSLA(61, 100%, 60%,0.5); color:HSLA(360, 100%, 45%,1); text-align:center;"><font size="5px">color=HSLA(34, 82%, 49%,0)</font></p>
+    </ol></p>
+</body>
+</html
